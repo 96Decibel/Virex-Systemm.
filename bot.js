@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
+        client.user.setGame(`VirexBot. | $help`,'https://www.twitch.tv/TEST-Broadcast');
 client.on('ready', () => {
   console.log(`${client.user.tag} Ready !`);
 });
